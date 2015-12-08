@@ -1,8 +1,9 @@
-.nav navbar-nav navbar-left {
-  float: left;
+.nav navbar-nav {
   position: fixed;
+  /** insert design features, such as color here **/
 }
 
+<<<<<<< Updated upstream
 li img {
     width: 10px;
     height: 10px;
@@ -12,6 +13,11 @@ li img {
 .investors {
   width: 10px;
   height: 10px;
+=======
+.nav navbar-nav navbar-left {
+  float: left;
+  position: fixed;
+>>>>>>> Stashed changes
 }
 
 .
