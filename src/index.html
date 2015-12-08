@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="css/index.css" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Navbar Start-->
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <img class="navbar-stagup" src="/Users/jakeknostman/Desktop/Github repos/iota-term-project/images/FairfieldStagUp.png" alt="Fairfield StagUp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar Start-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="navbar-stagup" src="/Users/jakeknostman/Desktop/Github repos/iota-term-project/images/FairfieldStagUp.png" alt="Fairfield StagUp">
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">News <span class="sr-only">(current)</span></a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#">Tickets</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <br>
+        <!-- fix images, link to sections with ids, image sizes, move to the right side -->
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <img src="/Users/jakeknostman/Desktop/Github repos/iota-term-project/images/pew-clipart-canstock6910259.jpg" Alt="chair"><a href="#">Reserve Seat</a>
+            <img src="#" Alt="Facebook"><a href="#">Facebook</a>
+            <img src="#" alt="Linkedin"><a href="#">LinkedIn</a>
+            <img src="#" alt="Twitter"><a href="#">Twitter</a>
+            <img src="#" alt="Invest"><a href="#">Invest</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">News <span class="sr-only">(current)</span></a></li>
-        <li><a href="#info">Info</a></li>
-        <li><a href="#">Tickets</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form><br>
-      <!-- fix images, link to sections with ids, image sizes, move to the right side -->
-      <ul class="nav navbar-nav navbar-left">
-        <li><img src="/Users/jakeknostman/Desktop/Github repos/iota-term-project/images/pew-clipart-canstock6910259.jpg" Alt="chair"><a href="#">Reserve Seat</a><img src="#" Alt="Facebook"><a href="#">Facebook</a><img src="#" alt="Linkedin"><a href="#">LinkedIn</a><img src="#" alt="Twitter"><a href="#">Twitter</a><img src="#" alt="Invest"><a href="#">Invest</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<!-- move to the left side-->
-<!-- Navbar End-->
-<!-- Event Teaser Start-->
-<div class="event teaser">
-  <p id="event title">Stag Up<br> Showcase</p><br>
-  <p id="event date">April 7th</p><br>
-  <p id="brief event description">Watch live as StagUp contestants vie for seed funding and cash prizes.</p>
-</div>
-<!-- Event Teaser End -->
-<!-- large image or video that fits inbetween the three navbar elements, beginning of content -->
-<div class="sales presentation image">
-  <img src="" alt="sales presentation">
-  <!-- insert button with a link to the reserve a seat page -->
-</div>
-<!-- End Large image/video-->
-<!-- Detailed Description Start-->
-<div class="detailed description">
-  <h1 id="info">StagUp Showcase</h1>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- move to the left side-->
+  <!-- Navbar End-->
+  <!-- Event Teaser Start-->
+  <div class="event teaser">
+    <p id="event title">Stag Up
+      <br> Showcase</p>
+    <br>
+    <p id="event date">April 7th</p>
+    <br>
+    <p id="brief event description">Watch live as StagUp contestants vie for seed funding and cash prizes.</p>
+  </div>
+  <!-- Event Teaser End -->
+  <!-- large image or video that fits inbetween the three navbar elements, beginning of content -->
+  <div class="sales presentation image">
+    <img src="" alt="sales presentation">
+    <!-- insert button with a link to the reserve a seat page -->
+  </div>
+  <!-- End Large image/video-->
+  <!-- Detailed Description Start-->
+  <div class="detailed description">
+    <h1 id="info">StagUp Showcase</h1>
     <p>Very Detailed Summary of event Here</p>
+<<<<<<< Updated upstream
 </div>
 <!-- End Detailed Description -->
 <!-- Start Investor Panel -->
@@ -94,4 +108,22 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
+=======
+  </div>
+  <!-- End Detailed Description -->
+  <!-- Start Investor Panel -->
+  <div class="investor panel">
+    <P>Meet The Investors</p>
+    <img src="" alt="">
+    <!-- insert this for each investor, make block panels, make info available when hover-->
+  </div>
+  <!-- End Investor Panel -->
+  <!-- fix position on the right side below top nav, edit text and block size -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+>>>>>>> Stashed changes
 </html>
