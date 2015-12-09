@@ -15,10 +15,12 @@ li img {
 .nav navbar-nav navbar-left {
   float: left;
   position: fixed;
+
 }
 .col-md-3 left{
   float: left;
   position: fixed;
+  background-color: #4F4549;
 }
 .col-md-3 right {
   float: right;
