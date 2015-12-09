@@ -5,31 +5,29 @@ body {
   position: fixed;
   /** insert design features, such as color here **/
 }
-
 li img {
-    width: 30px;
-    height: 30px;
-    background-image: none;
+  width: 30px;
+  height: 30px;
+  background-image: none;
 }
-
 .nav navbar-nav navbar-left {
   float: left;
   position: fixed;
-
 }
-.col-md-3 left{
+.col-md-3 left {
   float: left;
   position: fixed;
   background-color: #4F4549;
 }
+.col-md-6 {
+  position: relative;
+}
 .col-md-3 right {
   float: right;
   position: fixed;
+  background-color: #4F4549;
 }
-.col-md-6 {
 
-  position:relative;
-}
 .sales img {
   width: 300px;
   height: 200px;
@@ -37,23 +35,19 @@ li img {
 table {
   border-collapse: seperate;
 }
-
 td {
   width: 100px;
   height: 100px;
 }
-
 td h2 {
   font: normal bold 100% "new baskerville", serif;
   font-color: rgb(35, 31, 32);
   text-align: center;
 }
-
 td img {
   width: 100px;
   height: 100px;
 }
-
 .item active img {
   width: 100%;
   height: 100%;
