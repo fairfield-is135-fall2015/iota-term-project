@@ -1,25 +1,18 @@
 body {
   font-size: 100%;
 }
-.nav navbar-nav {
-  position: fixed;
-  /** insert design features, such as color here **/
-}
+
+
 li img {
   width: 30px;
   height: 30px;
   background-image: none;
 }
-.nav navbar-nav navbar-left {
-  float: left;
-  position: fixed;
-}
+
 .leftsidebar {
   position: fixed;
 }
-.col-md-6 {
-  position: relative;
-}
+
 .rightsidebar {
   position: fixed;
 }
