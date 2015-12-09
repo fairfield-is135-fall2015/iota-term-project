@@ -14,20 +14,15 @@ li img {
   float: left;
   position: fixed;
 }
-.col-md-3 left {
-  float: left;
+.leftsidebar {
   position: fixed;
-  background-color: #4F4549;
 }
 .col-md-6 {
   position: relative;
 }
-.col-md-3 right {
-  float: right;
+.rightsidebar {
   position: fixed;
-  background-color: #4F4549;
 }
-
 .sales img {
   width: 300px;
   height: 200px;
