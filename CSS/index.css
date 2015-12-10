@@ -49,13 +49,13 @@ td img {
   height: 100%;
 }
 #eventtitle {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #F00;
   font-family: helvetica;
 }
 #eventdate {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bolder;
     font-family: helvetica;
 }
