@@ -45,6 +45,7 @@ td img {
 }
 .detailed {
   background-color: #FFF;
+  line-height: 170%;
 }
 .item active img {
   width: 100%;
