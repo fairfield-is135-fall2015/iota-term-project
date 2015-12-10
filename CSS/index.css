@@ -75,10 +75,10 @@ td img {
   text-align: center;
 }
 .rightsidebar {
-
+background-color: #FFF;
   position: fixed;
   border: 4px solid #000;
-
+}
 .investtoday{
   font-size: 75px;
   font-weight: bolder;
