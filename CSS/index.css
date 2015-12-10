@@ -12,11 +12,14 @@ li img {
   height: 30px;
   background-image: none;
 }
-.toolbartop {
+.toolbartop{
   background-color: #5E5F60;
   font-family: helvetica;
   font-weight: bold;
   font-size: 20px;
+  color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
   color: #FFF;
 }
 .leftsidebar {
@@ -115,4 +118,20 @@ background-color: #FFF;
 
 .btn-block:hover {
   background-color:#8B0000;
+}
+.sponsorlogo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sponsor {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.investtodaypic {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.newscarousel {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
