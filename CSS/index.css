@@ -86,18 +86,6 @@ background-color: #FFF;
   border: 4px solid #000;
 }
 
-.becomesponsor {
-  font-size: 30px;
-  color: #FFF;
-  background-color: #5E5F60;
-  text-align: center;
-}
-
-.rightsidebar {
-  float: right;
-  position: fixed;
-  border: 4px solid #000;
-}
  .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
   height: 400px;
