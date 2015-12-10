@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+        body { font-family: 'Droid Serif';
+              font-weight: bold;
+      }
+
+        h1, h2, h3 {
+          font-family: 'Yanone Kaffeesatz';
+          font-weight: normal;
+          background-color: red;
+      }
+
+        .remark-code, .remark-inline-code {
+          font-family: 'Ubuntu Mono';
+      }
+
+      .paragraph {
+        font-size; x-large;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <textarea id="source">
+
+class: center, middle
+name: StagUp Website
+
+# StagUp Website
+
+*Created By:  Kaitlyn Arnold, Sally O'Toole, and Jake Knostman*
+
+---
+
+class: left
+name: Our Genda
+
+<h1>Our Agenda </h1>
+
+<p>
+--
+<br>
+1. Persona<br>
+<br>
+--
+<br>
+2. Design Goals<br>
+<br>
+--
+<br>
+3. Our Achievements<br>
+<br>
+--
+<br>
+4. Challenges<br>
+<br>
+--
+<br>
+5. Mockup: Above the Fold<br>
+<br>
+--
+<br>
+6. Mockup: Below the Fold<br>
+<br>
+--
+<br>
+7. Conclusion<br>
+<br>
+</p>
+---
+name: Persona
+
+<h1>Persona</h1>
+
+<p>
+
+Investors<hr>
+
+Sponsors<hr>
+
+Students<hr>
+
+Faculty<hr>
+
+Media<hr>
+</p>
+
+---
+class:
+name: Design Goals
+
+<h1>Design Goals</h1>
+
+- User friendly
+
+- Modern/Attractive
+
+- Easy to Navigate
+
+- Informative
+
+- Simple
+
+- Fill the Seats
+
+
+---
+class: center
+name: Our Achievements
+
+<h1>Our Achievements</h1>
+
+<br>
+<br>
+Here is our [website](file:///Users/jakeknostman/Desktop/Github%20repos/iota-term-project/src/index.html)!
+
+---
+name: Challenges
+
+<h1>Challenges</h1>
+
+<br>
+  Grid System<br>
+
+<br>
+  Carousel<br>
+
+<br>
+  Responsiveness<br>
+
+<br>
+
+
+
+---
+class: center
+name: Mockup: Above
+
+<h1>Mockup: Above the Fold</h1>
+
+![alt="PIC"](images\REAL ABOVE copy.png "Above the Fold")
+
+---
+class: center
+name: Mockup: Below
+
+<h1>Mockup: Below the Fold</h1>
+
+![alt="PIC"](images\BELOW.png "Below the Fold")
+
+---
+
+name: Conclusion
+class: center, middle
+
+#THANK YOU!
+<p>
+  <br>
+Feedback Welcome!</p>
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
