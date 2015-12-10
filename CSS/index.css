@@ -16,7 +16,8 @@ li img {
   background-color: #5E5F60;
   font-family: helvetica;
   font-weight: bold;
-  font-color: #000;
+  font-color:#000;
+  font-size: 20px;
 }
 .leftsidebar {
   position: fixed;
