@@ -104,3 +104,14 @@ background-color: #FFF;
       height: 200px;
       margin: auto;
 }
+
+.btn-block {
+  height:75px;
+  width:550px;
+  background-color: rgb(224,58,62);
+
+}
+
+.btn-block:hover {
+  background-color:#8B0000;
+}
