@@ -4,7 +4,9 @@ body {
   font-family: "new baskerville", serif;
 background-color: #BABABA;
 }
-
+li a {
+  color: #FFF;
+}
 li img {
   width: 30px;
   height: 30px;
