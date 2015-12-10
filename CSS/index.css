@@ -11,6 +11,8 @@ li img {
 .toolbartop {
   background-color: #5E5F60;
   font-family: helvetica;
+  font-weight: bold;
+  font-color: #000;
 }
 .leftsidebar {
   position: fixed;
@@ -91,4 +93,14 @@ td img {
   float: right;
   position: fixed;
   border: 4px solid #000;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  height: 400px;
+}
+.carousel {
+  width: 75%;
+  height: 400px;
+  max-width: 800px;
+  margin: auto;
 }
